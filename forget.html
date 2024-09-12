@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        height: 900px;
+        display: grid;
+        place-items: center;
+    }
+    .box{
+        width: 60%;
+        height: 400px;
+        background-image: url(./image/alofthotel.avif);
+        background-size: 100% 100%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        animation: changeImage 5s linear infinite;
+    }
+    @keyframes changeImage{
+        0%{
+            background-image: url(./image/alofthotel.avif);
+        }
+        25%{
+            background-image: url(./image/dwarikahotel.jpg);
+        }
+        50%{
+            background-image: url(./image/soltaee.jpg);
+            
+        }
+        75%{
+            background-image: url(./image/hiltonhotel.jpg);
+            
+        }
+        100%{
+            background-image: url(./image/hiltonhotel.jpg);
+
+        }
+    }
+    @media screen and (max-width:600px){
+        .box{
+            width: 700px;
+            height: 550px;
+        }
+    }
+</style>
+<body>
+    <div class="box"></div>
+    <marquee direction="right">hello</marquee>
+</body>
+</html>

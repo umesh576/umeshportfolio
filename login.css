@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman;
+}
+body{
+    background-image: url(backlogin.jpeg);
+}
+.heading{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(91, 95, 179);
+    text-align: center;
+}
+.heading h1{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.twopage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginPage{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 3rem;
+    height: 400px;
+    width: 500px;
+    background-image: url(forgetimage2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 200px;
+    box-shadow: rgb(237, 5, 5) 10px 10px 20px;
+}
+.loginPage h2{
+    font-size: 2rem;
+    margin-left: 50px;
+    color: rgb(250, 251, 250);
+}
+.umesh{
+    width: 400px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+#messageLogin{
+    font-size: 1.5rem;
+    color: rgb(240, 248, 4);
+}
+.information button{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(66, 66, 146);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.information button:hover{
+    width: 390px;
+    height: 38px;
+    opacity: 0.8;
+}
+.forget a{
+    font-size: 1.2rem;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+.forget a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.registerPage{
+    border: 2px solid black;
+    font-size: 3rem;
+    height: 400px;
+    width: 500px;
+    background-image: url(backgroundforget.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 200px;
+    margin-left: 10px;
+    box-shadow: blue 10px 10px 20px ;
+}
+.registerPage h3{
+    font-size: 2rem;
+    color: white;
+    margin-left: 50px;
+}
+#Message{
+    font-size: 1.5rem;
+    color: rgb(6, 6, 172);
+}
+.styleInput{
+    width: 400px;
+    height: 40px;
+    font-size: large;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.SubmitButton{
+    background-color: rgb(88, 88, 214);
+    color: white;
+    width: 400px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.SubmitButton:hover{
+    width: 390px;
+    height: 37px;
+    opacity: 0.9;
+}
+

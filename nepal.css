@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+header{
+    background-color: rgb(48, 45, 45);
+}
+.navBar{
+    display: flex;
+
+}
+.navElement{
+    margin-left: 850px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navElement ul{
+    display: flex;
+    margin-right: 0px;
+}
+.navElement ul li{
+    display: flex;
+    margin-left: 45px;
+    list-style: none;
+}
+.logo1{
+    display: flex;
+}
+#logo1{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.navElement ul li a{
+    color: black;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+.navElement ul li a:hover{
+    opacity: 0.5;
+    color: red;
+    object-fit: contain;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    
+}
+.AvaliableServices{
+    width: 75px;
+    height: 373px;
+    position: fixed;
+    margin-top: 80px;
+}
+.AvaliableServices a{
+    color: brown;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.AvaliableServices i{
+    margin-left: 20px;
+}
+.AvaliableServices p{
+    margin-left: 1px;
+}
+.Findroom{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: rgb(224, 228, 228);
+}
+.Findroom:hover{
+    color: azure;
+    background-color: brown;
+}
+.airTicket{
+    width: 73px;
+    margin-top: 3px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: rgb(224, 228, 228);
+}
+.airTicket:hover{
+    background-color: brown;
+    color: azure;
+}
+.trekking{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 10px;
+    background-color: rgb(224, 228, 228);
+}
+.trekking:hover{
+    background-color: brown;
+    color: azure;
+}
+.events{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 3px;
+    background-color: rgb(224, 228, 228);
+}
+.events:hover{
+    background-color: brown;
+    color: azure;
+}
+.sports{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 3px;
+    background-color: rgb(224, 228, 228);
+}
+.sports:hover{
+    color: azure;
+    background-color: brown;
+}
+.Vechicle{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 3px;
+    background-color: rgb(224, 228, 228);
+}
+.Vechicle:hover{
+    color: azure;
+    background-color: brown;
+}
+.places{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 3px;
+    background-color: rgb(224, 228, 228);
+}
+.places:hover{
+    color: azure;
+    background-color: brown;
+}
+/* main body csss */
+.mainplace{
+    background-image: url(./image/backgroundmontain2.avif);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    animation: changeImage 10s linear infinite;
+}
+@keyframes changeImage{
+    0%{
+        background-image: url(./image/backgroundmontain2.avif);
+    }
+    25%{
+        background-image: url(./image/montainslideshow\ \(1\).jpg);
+    }
+    50%{
+        background-image: url(./image/tilicho-lake-trekking-1.jpg);
+    }
+    75%{
+        background-image: url(./image/pokhara.jpg);
+        
+    }
+    100%{
+        background-image: url(./image/backgroundmontain2.avif);
+
+    }
+}
+.content h1{
+    margin-top: 20px;
+    font-size: 80px;
+    line-height: 50px;
+    color: antiquewhite;
+}
+.content{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.search-box{
+    margin-top: 50px;
+    margin-left: 250px;
+    border-radius: 20px;
+}
+.search-box input{
+    border-radius: 10px;
+    width: 500px;
+    height: 80px;
+}
+.nepalPlace{
+    height: 300px;
+    width: 320px;
+    border: 2px solid red;
+}
+.nepalLand{
+    border: 2px solid red;
+    height: 280px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}

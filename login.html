@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Online Ticket Booking System</h1>
+    </div>
+    <div class="twopage">
+        <div class="loginPage">
+            <div class="information">
+                <h2>Login</h2>
+                <p id="messageLogin">please login for the enter in website</p>
+                <div class="username">
+                    <label for="Username"></label>
+                    <input name="password" id="username" class="umesh" placeholder="Username/email">
+                </div>
+                <div class="password">
+                    <input type="password" name="Password" id="password" placeholder="Password" class="umesh">
+                </div>
+                <a href="#"><button id="loginButton">login</button></a>
+                
+                <div class="forget">
+                    <a href="#" id="forgetPassword">Forget Password</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="registerPage">
+            <h3>Register</h3>
+            <p id="Message">Input your details</p>
+            <div class="username">
+                <label for="username">
+                    <input type="username" name="usename" placeholder="Username" class="styleInput" id="inputusername" required>
+                </label>
+
+            </div>
+            <div class="lastname">
+                <label for="lastname">
+                    <input type="lastname" placeholder="lastname" class="styleInput" id="inputLastname" required>
+                </label>
+            </div>
+            <div class="Phonenumber">
+                <label for="number" form="Email">
+                    <input type="email" type="number" class="styleInput" placeholder="Email/Number" id="InputNumber" required>
+                </label>
+            </div>
+            <div class="address">
+                <label for="password">
+                    <input type="password" class="styleInput" placeholder="Password" id="Address" required>
+                </label>
+            </div>
+            <button type="submit" class="SubmitButton" id="submitbut">submit</button>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>

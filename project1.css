@@ -1,0 +1,828 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+header{
+    background-color: rgb(48, 45, 45);
+}
+.navBar{
+    display: flex;
+}
+.navElement{
+    margin-left: 850px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navElement ul{
+    display: flex;
+    margin-right: 0px;
+}
+.navElement ul li{
+    display: flex;
+    margin-left: 45px;
+    list-style: none;
+}
+.logo1{
+    display: flex;
+}
+#logo1{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.navElement ul li a{
+    color: black;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+.navElement ul li a:hover{
+    opacity: 0.5;
+    color: red;
+    object-fit: contain;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    
+}
+/*main body csss*/
+.AvaliableServices{
+    width: 75px;
+    height: 373px;
+    position: fixed;
+    margin-top: 80px;
+    z-index: 1;
+}
+.AvaliableServices a{
+    color: brown;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.AvaliableServices i{
+    margin-left: 20px;
+}
+.AvaliableServices p{
+    margin-left: 1px;
+}
+.Findroom{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: rgb(224, 228, 228);
+}
+.Findroom:hover{
+    color: azure;
+    background-color: brown;
+}
+.airTicket{
+    width: 73px;
+    margin-top: 3px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: rgb(224, 228, 228);
+}
+.airTicket:hover{
+    background-color: brown;
+    color: azure;
+}
+.trekking{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 10px;
+    background-color: rgb(224, 228, 228);
+}
+.trekking:hover{
+    background-color: brown;
+    color: azure;
+}
+.events{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 3px;
+    background-color: rgb(224, 228, 228);
+}
+.events:hover{
+    background-color: brown;
+    color: azure;
+}
+.sports{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 3px;
+    background-color: rgb(224, 228, 228);
+}
+.sports:hover{
+    color: azure;
+    background-color: brown;
+}
+.Vechicle{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 3px;
+    background-color: rgb(224, 228, 228);
+}
+.Vechicle:hover{
+    color: azure;
+    background-color: brown;
+}
+.places{
+    width: 73px;
+    height: 50px;
+    border: 2px solid white;
+    margin-top: 3px;
+    background-color: rgb(224, 228, 228);
+}
+.places:hover{
+    color: azure;
+    background-color: brown;
+}
+/* content css */
+.content1{
+    background-image: url(./image/mountainplane.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-top: -60px;
+}
+.mainBody{
+    margin-top: -80px;
+}
+.section1content1{
+    width: 50%;
+    position: absolute;
+    display: flex;
+}
+.solagon1{
+    padding: 10px;
+}
+.solagon1 p{
+    font-size: 3rem;
+    color: white;
+    margin-top: 70px;
+    margin-left: 40px;
+    font-style: italic;
+    font-weight: 1000;
+}
+#travels{
+    margin-top: 0px;
+    font-size: 1.5rem;
+    color: yellow;
+}
+
+.section2content1 img{
+    height: 500px;
+    width: 500px;
+    margin-left: 900px;
+}
+
+
+.tickets{
+    margin-top: 120px;
+    margin-left: 75px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 4px 6px -1px rgba(0,0,0,0.5);
+    height: 300px;
+}
+.bookTicket{
+    height: 250px;
+    width: 185px;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 8px 12px -1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.bookTicket:hover{
+    border-radius: 0px;
+}
+.vechileTicket1{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/buspicture.jpg);
+}
+.vechileTicket1:hover{
+    transform: scale(1.5);
+    transition-duration: 1.5s;
+}
+.vechileTicket2{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/plane2.jpg);
+}
+.vechileTicket2:hover{
+    transform: scale(1.5);
+    transition-duration: 1.5s;
+}
+.vechileTicket3{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/train.avif);
+}
+.vechileTicket3:hover{
+    transform: scale(1.5);
+    transition-duration: 1.5s;
+}
+.vechileTicket4{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/Motorcycle-Ride.jpg);
+}
+.vechileTicket4:hover{
+    transform: scale(1.5);
+    transition-duration: 1.5s;
+}
+.infoSection h1{
+    font-size: 7rem;
+    margin-left: 325px;
+    margin-top: 50px;
+    mix-blend-mode: overlay;
+}
+.locationInfo h1{
+    font-size: 5rem;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.location{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.location2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.location a,.location2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem
+}
+.choosePlace{
+    height: 250px;
+    width: 185px;
+    margin-top: 10px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 8px 12px -1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.place1{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/nepallocation2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.place2{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/lasvegas.jpg);
+}
+.place3{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/thailand.jpg);
+}
+.place4{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/switzerland.jpg);
+}
+.place5{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/paris.jpg);
+}
+.place6{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/dubai.jpeg);
+}
+.place7{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/vietnam.jpg);
+}
+.place8{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./image/maldives.jpg);
+}
+.vehicleInfo{
+    margin-top: 80px;
+    text-align: center;
+}
+.vehicleInfo p{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.backgroundConstant {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundConstant::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./image/beach1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.contentConstant {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.contentConstant h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.contentConstant p {
+    color: rgb(215, 212, 212);
+}
+
+.services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.services i {
+    font-size: 3rem;
+    margin-left: 20px;
+    color: white;
+}
+/* hotel section */
+.Hotelinfo{
+    width: 90%;
+    height: 830px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hotelShift1{
+    margin-top: 50px;
+}
+.hotelShift2{
+    margin-top: 50px;
+}
+.hotelShift3{
+    margin-top: 50px;
+}
+.hotelDeals p{
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 75px;
+    font-weight: bold
+}
+.Hotelinfo a{
+    text-decoration: none;
+    color: white;
+}
+.HotelPhoto{
+    height: 200px;
+    width: 300px;
+}
+.HotelPhoto1{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.HotelPhoto2{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.HotelPhoto3{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.HotelPhoto4{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.HotelPhoto5{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.HotelPhoto6{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.HotelPhoto7{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.HotelPhoto8{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.HotelPhoto9{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+}
+.hotel1{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/soltaee.jpg);
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.hotel1:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.hotel2{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/hiltonhotel.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.hotel2:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.hotel3{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/hyaathotel.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+}
+.hotel3:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.hotel4{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/lumbinihotel.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+}
+.hotel4:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.hotel5{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/mallahotel.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+}
+.hotel5:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.hotel6{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/marroithotel.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+}
+.hotel6:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.hotel7{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/mystichotel.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+}
+.hotel7:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.hotel8{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/dwarikahotel.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+}
+.hotel8:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.hotel9{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/alofthotel.avif);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+}
+.hotel9:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+/* footer section */
+.footerInfo{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(48, 44, 44);
+}
+.footerInfo{
+    display: flex;
+}
+.footerInfo1{
+    width: 30%;
+    margin-top: 70px;
+    margin-left: 175px;
+}
+.elementsInfo{
+    margin-top: 50px;
+}
+.elementsInfo ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(240, 215, 215);
+}
+.elementsInfo ul li a:hover{
+    color: rgb(154, 146, 146);
+}
+.elementsInfo ul{
+    list-style-type: none;
+}
+/* footer contact section */
+.contactList{
+    display: flex;
+    box-shadow: 0 2px 2px;
+    height: 60px;
+    width: 100%;
+}
+.contactTime{
+    color: beige;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contactMethod ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.contactMethod li a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+.contactMethod li a:hover{
+    background-color: rgb(110, 108, 105);
+    border-radius: 5px;
+}
+.contactPeople{
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgb(192, 188, 184);
+    display: flex;
+}
+.contactSector{
+    width: 225px;
+}
+.contactSector ul{
+    list-style-type: none;
+}
+.contactNumber ul{
+    list-style-type: none;
+}
+.contactNumber ul li a{
+    color: rgb(191, 196, 196);
+    text-decoration: none;
+}
+.contactNumber ul li a:hover{
+    color: aliceblue;
+}
+.contactEmail ul li a{
+    text-decoration: none;
+    color: rgb(200, 204, 208);
+}
+.contactEmail ul li a:hover{
+    color: rgb(232, 235, 238);
+}
+.contactEmail ul{
+    list-style-type: none;
+}
+.contactEmail{
+    margin-left: 30px;
+}
+.paymentPatner{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paymentPatner p{
+    font-size: 1.2rem;
+    color: brown;
+}
+.esewa{
+    margin-left: 50px;
+}
+.khalti{
+    margin-left: 50px;
+}
+.lastInfo{
+    height: 40px;
+    color: white;
+    background-color: rgb(36, 34, 34);
+    text-align: center;
+    align-items: center;
+}
+.form{
+    height: 700px;
+    width: 60%;
+    border: 2px solid rgba(255,255,255,0.3);
+    /* position: fixed; */
+    align-self: center;
+    justify-self: center;
+    margin-left: 15%;
+    margin-top: 150px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    position: absolute;
+}
+.form form input{
+    height: 60px;
+    width: 80%;
+    border-radius: 20px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: antiquewhite;
+}
+.form p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+@media screen and (max-width: 600px) {
+    .solagon1 p{
+        font-size: 1.5rem;
+        line-height: 20px;
+    }
+    .locationInfo h1{
+        font-size: 2rem;
+        line-height: 25px;
+    }
+    .AvaliableServices{
+        width: 55px;
+        height: 300px;
+        position: fixed;
+    }
+    .hotelDeals p{
+        font-size: 2rem;
+        line-height: 25px;
+    }
+    .vehicleInfo p{
+        font-size: 2rem;
+        line-height: 25px;
+    }
+    .bookTicket{
+        height: 180px;
+        width: 135px;
+    }
+    .tickets{
+        height: 210px;
+    }
+    .content1{
+        height: 300px;
+    }
+    .navElement{
+        margin-left: 150px;
+        height: 35px;
+    }
+    .backgroundConstant{
+        width: 600px;
+        height: 250px;
+    }
+    .backgroundConstant h1{
+        font-size: 2rem;
+    }
+    .iconClass i{
+        font-size: 1.1rem;
+    }
+    .contentConstant p{
+        font-size: 0.9rem;
+    }
+}
